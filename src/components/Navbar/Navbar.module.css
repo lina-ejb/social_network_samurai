@@ -1,0 +1,24 @@
+.nav {
+/*    grid-column: 1 / 2;
+    grid-row: 2 / 4;*/
+    background: #062541;
+    order: -1;
+    flex: 0 0 10vw;
+    width: 230px;
+
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    padding-left: 49px;
+
+}
+.item a:hover {
+    border-left: 4px solid #e06311;
+    transition: .5s;
+    background: #062541;
+    counter-reset: white;
+}
+

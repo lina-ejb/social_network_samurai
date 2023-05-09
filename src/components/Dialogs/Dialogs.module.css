@@ -1,0 +1,23 @@
+.dialogs {
+    display: flex;
+    flex-direction: row;
+}
+.chatContainer {
+    min-width: 600px;
+    max-width: 1000px;
+    max-height: 600px;
+    height: 95vh;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.dialogsItems {
+    flex-basis: 300px;
+    flex-shrink: 0;
+
+}
+
+.messages {
+    background: #999;
+    border-radius: 0 10px 10px 0;
+}
